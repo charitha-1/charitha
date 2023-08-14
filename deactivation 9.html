@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deactivation form</title>
+    <style>
+        .order
+        {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: larger;
+            text-align:left;
+        }
+    </style>
+</head>
+<body bgcolor="lightpink">
+    <h1 style="text-align: center;color:rgb(red, green, blue);">Order cancellation form/deactivation Form</h1>
+    <fieldset>
+    <div class="order">
+<form action="deactivation.html">
+        ordernumber/id:<input type="number"><br>
+        firstname:<input type="text">
+        lastname:<input type="text"><br>
+        email:<input type="email"><br>
+        phone number:<input type="number"><br>
+        Address:<input type="text"><br>
+        <h2>Do you want cancel or postpone the order?</h2>
+        <input type="radio" name="order">cancel the order<br>
+        <input type="radio" name="order">postpone the order
+        <h2>select the date</h2>
+        date:<input type="date"><br>
+        <h2>If paid give the details for refund</h2>
+        Bank details:<input type="number"><br>
+        <label for="1">Reason:</label><br>
+       <textarea name="Reason" id="1" cols="30" rows="10"></textarea>
+       <input type="submit" name="submit">
+    <input type="Reset" name="Reset">
+        <
+    </form> 
+    </div>
+</fieldset>
+</body>
+</html>
